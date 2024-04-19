@@ -1,0 +1,73 @@
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    /* font-family: "Noto Sans", sans-serif; */
+    margin: auto;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+p { 
+    text-indent: 2em; /* 段首两个字的缩进*/
+}
+
+p.author {
+    text-align: right;
+}
+
+h1 { text-align: center; font-size: 32px; }
+h2 { text-align: center; font-size: 28px; }
+h3 { text-align: center; font-size: 24px; }
+h4 { text-align: left; }
+h5 { text-align: left; }
+h6 { text-align: left; }
+
+q, blockquote {
+    font-style: italic; /* 换字体太麻烦，而且不好看 */
+}
+
+a.footnote-ref {
+	vertical-align: super; /* 注释序号放右上角 */
+}
+
+ol, ul {
+    margin-left: 15px;
+}
+
+li {
+    margin: 0;
+    padding: 0 5px; /* 让list的行不至于靠得太近 */
+}
+
+table {
+    border-collapse: collapse; /* 画出表格边框 */
+    margin-left: auto;        /* 居中 */
+    margin-right: auto;
+    border: 2px solid black;
+}
+
+th, td {
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+code {
+    font-family: monospace;
+    background-color: rgb(247, 247, 247);
+}
+
+pre {
+    font-family: monospace;
+    padding: 16px;
+    overflow: auto;
+    font-size: 80%;
+    line-height: 1.45;
+    border-radius: 3px;
+    background-color: rgb(247, 247, 247);
+}
